@@ -1,0 +1,252 @@
+{
+  "agent_name": "nascar-motorsport-api-agent",
+  "version": "1.0",
+  "purpose": "Fetch NASCAR-related data (drivers, photos, stats, news, scoreboards, schedules, results, standings) from the NASCAR Motorsport API on RapidAPI.",
+  "base_url": "https://nascar-motorsport-api.p.rapidapi.com",
+  "authentication": {
+    "type": "rapidapi_headers",
+    "required_headers": {
+      "x-rapidapi-host": "nascar-motorsport-api.p.rapidapi.com",
+      "x-rapidapi-key_env": "RAPIDAPI_KEY"
+    },
+    "notes": [
+      "Use api_key = os.getenv(\"RAPIDAPI_KEY\") in code. Do NOT hardcode the key.",
+      "Some HTTP frameworks add extra headers automatically. If requests fail unexpectedly, remove non-essential headers and retry."
+    ]
+  },
+  "request_standards": {
+    "methods_allowed": ["GET"],
+    "timeouts_ms": 15000,
+    "retries": {
+      "max_attempts": 3,
+      "backoff_ms": [500, 1500, 4000],
+      "retry_on_status": [429, 500, 503]
+    },
+    "pagination": {
+      "style": "page",
+      "default_page": 1,
+      "default_per_page": 15
+    },
+    "response_handling": {
+      "expect_json": true,
+      "validate_content_type_if_present": true
+    }
+  },
+  "caching": {
+    "provider_note": "API uses caching for race results to enhance performance and reduce server load.",
+    "client_guidance": [
+      "Do not assume data is live to-the-second for historical endpoints.",
+      "If your app needs a refresh button, allow users to re-fetch and overwrite cached client state."
+    ]
+  },
+  "endpoints": [
+    {
+      "name": "driver_photos",
+      "method": "GET",
+      "path": "/photos",
+      "description": "Retrieves photos of a specific driver with support for pagination.",
+      "query_params": [
+        { "name": "driverId", "type": "string", "required": true, "example": "4495" },
+        { "name": "page", "type": "string", "required": false, "default": "1", "example": "1" }
+      ],
+      "returns": {
+        "type": "array",
+        "items_example_fields": ["href", "imgSrc"]
+      }
+    },
+    {
+      "name": "driver_stats",
+      "method": "GET",
+      "path": "/stats",
+      "description": "Retrieves detailed statistics for a specified driver (by year).",
+      "query_params": [
+        { "name": "driverId", "type": "string", "required": true, "example": "4495" }
+      ],
+      "returns": {
+        "type": "array",
+        "items_example_fields": ["year", "rank", "starts", "wins", "poles", "top5", "top10", "points", "avgStart", "avgFinish"]
+      }
+    },
+    {
+      "name": "athlete_info",
+      "method": "GET",
+      "path": "/athlete-info",
+      "description": "Retrieves detailed information about a specific athlete.",
+      "query_params": [
+        { "name": "athleteId", "type": "string", "required": true, "example": "4495" }
+      ],
+      "returns": {
+        "type": "object",
+        "example_fields": ["id", "uid", "firstName", "lastName", "fullName", "dateOfBirth", "birthPlace", "headshot", "vehicles"]
+      }
+    },
+    {
+      "name": "news",
+      "method": "GET",
+      "path": "/news",
+      "description": "Retrieves NASCAR news articles with pagination.",
+      "query_params": [
+        { "name": "page", "type": "number", "required": false, "default": 1, "example": 1 },
+        { "name": "perPage", "type": "string", "required": false, "default": "15", "example": "20" }
+      ],
+      "returns": {
+        "type": "object",
+        "example_fields": ["news.page", "news.perPage", "news.resultsCount", "news.feed"]
+      }
+    },
+    {
+      "name": "current_scoreboard",
+      "method": "GET",
+      "path": "/current-scoreboard",
+      "description": "Retrieves the most recent scoreboard data (multi-league motor sports feed structure).",
+      "query_params": [],
+      "returns": {
+        "type": "object",
+        "example_fields": ["sports"]
+      }
+    },
+    {
+      "name": "scoreboard",
+      "method": "GET",
+      "path": "/scoreboard",
+      "description": "Retrieves scoreboard data for a specified year, with optional month/day filters.",
+      "query_params": [
+        { "name": "year", "type": "string", "required": true, "example": "2024" },
+        { "name": "month", "type": "string", "required": false, "default": null, "example": "03" },
+        { "name": "day", "type": "string", "required": false, "default": null, "example": "10" }
+      ],
+      "returns": {
+        "type": "object",
+        "example_fields": ["scoreboard"]
+      }
+    },
+    {
+      "name": "race_report",
+      "method": "GET",
+      "path": "/race-report",
+      "description": "Retrieves the race report for a specific race.",
+      "query_params": [
+        { "name": "raceId", "type": "string", "required": true, "example": "202302054248" }
+      ],
+      "returns": {
+        "type": "object",
+        "example_fields": ["report"]
+      }
+    },
+    {
+      "name": "race_results_by_driver_year",
+      "method": "GET",
+      "path": "/race-results",
+      "description": "Retrieves race results for a specific driver and year.",
+      "query_params": [
+        { "name": "driverId", "type": "string", "required": true, "example": "810" },
+        { "name": "year", "type": "string", "required": false, "default": "2023", "example": "2024" }
+      ],
+      "returns": {
+        "type": "array",
+        "items_example_fields": ["date", "race", "place", "start", "laps", "points"]
+      }
+    },
+    {
+      "name": "results_by_year_series",
+      "method": "GET",
+      "path": "/results",
+      "description": "Retrieves race results for the specified year and series.",
+      "query_params": [
+        { "name": "year", "type": "number", "required": true, "example": 2024 },
+        {
+          "name": "series",
+          "type": "number",
+          "required": false,
+          "default": 1,
+          "allowed_values": [
+            { "value": 1, "meaning": "NASCAR Cup Series" },
+            { "value": 2, "meaning": "NASCAR Xfinity Series" },
+            { "value": 3, "meaning": "NASCAR Truck Series" }
+          ]
+        }
+      ],
+      "returns": {
+        "type": "array",
+        "items_example_fields": ["date", "name", "track", "raceId", "winner", "poleWinner"]
+      }
+    },
+    {
+      "name": "standings_drivers",
+      "method": "GET",
+      "path": "/standings-drivers",
+      "description": "Retrieves driver standings for a specific year.",
+      "query_params": [
+        { "name": "year", "type": "string", "required": true, "example": "2024" }
+      ],
+      "returns": {
+        "type": "object",
+        "example_fields": ["standings.season", "standings.entries"]
+      }
+    },
+    {
+      "name": "schedule",
+      "method": "GET",
+      "path": "/schedule",
+      "description": "Retrieves schedule data for the specified year.",
+      "query_params": [
+        { "name": "year", "type": "string", "required": true, "example": "2023" }
+      ],
+      "returns": {
+        "type": "array",
+        "items_example_fields": ["raceId", "date", "name", "track", "tv", "startingGrid", "raceResults"]
+      }
+    }
+  ],
+  "error_handling": {
+    "status_code_map": [
+      {
+        "code": 400,
+        "meaning": "Bad Request",
+        "agent_action": "Validate required query params are present and correctly formatted."
+      },
+      {
+        "code": 401,
+        "meaning": "Unauthorized",
+        "agent_action": "Confirm RAPIDAPI_KEY env var is set and headers include x-rapidapi-key and x-rapidapi-host."
+      },
+      {
+        "code": 403,
+        "meaning": "Forbidden",
+        "agent_action": "Check plan limits/permissions; if rate-limited, backoff and retry."
+      },
+      {
+        "code": 404,
+        "meaning": "Not Found",
+        "agent_action": "Verify endpoint path and parameter values (IDs/year/series)."
+      },
+      {
+        "code": 429,
+        "meaning": "Too Many Requests",
+        "agent_action": "Backoff and retry; add client-side rate limiting."
+      },
+      {
+        "code": 500,
+        "meaning": "Internal Server Error",
+        "agent_action": "Retry after short delay; if persistent, surface error details."
+      },
+      {
+        "code": 503,
+        "meaning": "Service Unavailable",
+        "agent_action": "Retry with backoff; treat as transient outage."
+      }
+    ],
+    "logging": {
+      "log_request_url": true,
+      "log_status_code": true,
+      "log_response_snippet_chars": 500,
+      "redact_headers": ["x-rapidapi-key"]
+    }
+  },
+  "implementation_notes": [
+    "Build a thin client wrapper: request(endpoint_name, params) -> JSON.",
+    "Validate required params before calling the API.",
+    "Normalize types: keep driverId/athleteId/raceId/year as strings unless the endpoint specifies number.",
+    "For fantasy league use cases, likely core endpoints are: /results (by year/series), /standings-drivers (by year), /schedule (by year), /stats (driverId), /athlete-info (athleteId), /news."
+  ]
+}

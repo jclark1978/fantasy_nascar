@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+fantasy_nascar.db
+.env

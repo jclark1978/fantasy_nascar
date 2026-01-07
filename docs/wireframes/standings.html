@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Standings — Prototype</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header small">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Fantasy NASCAR</a></h1>
+    </div>
+  </header>
+  <main class="container">
+    <h2>Driver Standings</h2>
+
+    <div class="controls">
+      <label>
+        Year
+        <select aria-label="Select year">
+          <option>2025</option>
+          <option>2024</option>
+        </select>
+      </label>
+      <input placeholder="Search driver" aria-label="Search driver">
+    </div>
+
+    <div class="table-wrap">
+      <table class="standings" role="table" aria-label="Standings table">
+        <thead>
+          <tr><th>Pos</th><th>Driver</th><th>Team</th><th>Points</th><th>Wins</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td><a href="driver.html">Álex Palou</a></td><td>-</td><td>711</td><td>—</td></tr>
+          <tr><td>2</td><td><a href="driver.html">Pato O'Ward</a></td><td>-</td><td>515</td><td>—</td></tr>
+          <tr><td>3</td><td><a href="driver.html">Scott Dixon</a></td><td>-</td><td>452</td><td>—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+  <footer class="site-footer small"><div class="container">Standings prototype</div></footer>
+</body>
+</html>

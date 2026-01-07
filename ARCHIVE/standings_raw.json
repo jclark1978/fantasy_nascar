@@ -1,0 +1,5836 @@
+{
+  "standings": {
+    "season": 2025,
+    "seasonType": 2,
+    "entries": [
+      {
+        "athlete": {
+          "id": "5632",
+          "uid": "s:2000~a:5632",
+          "displayName": "\u00c1lex Palou",
+          "abbreviation": "PAL",
+          "name": "\u00c1lex Palou",
+          "shortName": "\u00c1. Palou",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+            "alt": "Spain",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 1,
+            "displayValue": "1"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 711,
+            "displayValue": "711",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5581",
+          "uid": "s:2000~a:5581",
+          "displayName": "Pato O'Ward",
+          "abbreviation": "OWA",
+          "name": "Pato O'Ward",
+          "shortName": "P. O'Ward",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+            "alt": "Mexico",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 2,
+            "displayValue": "2"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 515,
+            "displayValue": "515",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "518",
+          "uid": "s:2000~a:518",
+          "displayName": "Scott Dixon",
+          "name": "Scott Dixon",
+          "shortName": "S. Dixon",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+            "alt": "New Zealand",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 3,
+            "displayValue": "3"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 452,
+            "displayValue": "452",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5704",
+          "uid": "s:2000~a:5704",
+          "displayName": "Kyle Kirkwood",
+          "name": "Kyle Kirkwood",
+          "shortName": "K. Kirkwood",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 4,
+            "displayValue": "4"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 433,
+            "displayValue": "433",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5691",
+          "uid": "s:2000~a:5691",
+          "displayName": "Christian Lundgaard",
+          "name": "Christian Lundgaard",
+          "shortName": "C. Lundgaard",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+            "alt": "Denmark",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 5,
+            "displayValue": "5"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 431,
+            "displayValue": "431",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5582",
+          "uid": "s:2000~a:5582",
+          "displayName": "Colton Herta",
+          "name": "Colton Herta",
+          "shortName": "C. Herta",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 6,
+            "displayValue": "6"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 372,
+            "displayValue": "372",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5590",
+          "uid": "s:2000~a:5590",
+          "displayName": "Felix Rosenqvist",
+          "name": "Felix Rosenqvist",
+          "shortName": "F. Rosenqvist",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+            "alt": "Sweden",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 6,
+            "displayValue": "6"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 372,
+            "displayValue": "372",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5753",
+          "uid": "s:2000~a:5753",
+          "displayName": "Marcus Armstrong",
+          "name": "Marcus Armstrong",
+          "shortName": "M. Armstrong",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+            "alt": "New Zealand",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 8,
+            "displayValue": "8"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 364,
+            "displayValue": "364",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "810",
+          "uid": "s:2000~a:810",
+          "displayName": "Will Power",
+          "name": "Will Power",
+          "shortName": "W. Power",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+            "alt": "Australia",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 9,
+            "displayValue": "9"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 357,
+            "displayValue": "357",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5648",
+          "uid": "s:2000~a:5648",
+          "displayName": "Scott McLaughlin",
+          "name": "Scott McLaughlin",
+          "shortName": "S. McLaughlin",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+            "alt": "New Zealand",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 10,
+            "displayValue": "10"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 356,
+            "displayValue": "356",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5706",
+          "uid": "s:2000~a:5706",
+          "displayName": "David Malukas",
+          "name": "David Malukas",
+          "shortName": "D. Malukas",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 11,
+            "displayValue": "11"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 318,
+            "displayValue": "318",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "4526",
+          "uid": "s:2000~a:4526",
+          "displayName": "Josef Newgarden",
+          "name": "Josef Newgarden",
+          "shortName": "J. Newgarden",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 12,
+            "displayValue": "12"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 316,
+            "displayValue": "316",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5797",
+          "uid": "s:2000~a:5797",
+          "displayName": "Christian Rasmussen",
+          "name": "Christian Rasmussen",
+          "shortName": "C. Rasmussen",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/den.png",
+            "alt": "Denmark",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 13,
+            "displayValue": "13"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 313,
+            "displayValue": "313",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5634",
+          "uid": "s:2000~a:5634",
+          "displayName": "Rinus VeeKay",
+          "name": "Rinus VeeKay",
+          "shortName": "R. VeeKay",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
+            "alt": "Netherlands",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 14,
+            "displayValue": "14"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 305,
+            "displayValue": "305",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "4667",
+          "uid": "s:2000~a:4667",
+          "displayName": "Alexander Rossi",
+          "abbreviation": "RSI",
+          "name": "Alexander Rossi",
+          "shortName": "A. Rossi",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 15,
+            "displayValue": "15"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 297,
+            "displayValue": "297",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5553",
+          "uid": "s:2000~a:5553",
+          "displayName": "Santino Ferrucci",
+          "name": "Santino Ferrucci",
+          "shortName": "S. Ferrucci",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 16,
+            "displayValue": "16"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 293,
+            "displayValue": "293",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5798",
+          "uid": "s:2000~a:5798",
+          "displayName": "Kyffin Simpson",
+          "name": "Kyffin Simpson",
+          "shortName": "K. Simpson",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/cay.png",
+            "alt": "Cayman Islands",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 17,
+            "displayValue": "17"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 282,
+            "displayValue": "282",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "4580",
+          "uid": "s:2000~a:4580",
+          "displayName": "Conor Daly",
+          "abbreviation": "DAL",
+          "name": "Conor Daly",
+          "shortName": "C. Daly",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 18,
+            "displayValue": "18"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 268,
+            "displayValue": "268",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "872",
+          "uid": "s:2000~a:872",
+          "displayName": "Graham Rahal",
+          "name": "Graham Rahal",
+          "shortName": "G. Rahal",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 19,
+            "displayValue": "19"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 260,
+            "displayValue": "260",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "4622",
+          "uid": "s:2000~a:4622",
+          "displayName": "Marcus Ericsson",
+          "abbreviation": "ERI",
+          "name": "Marcus Ericsson",
+          "shortName": "M. Ericsson",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+            "alt": "Sweden",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 20,
+            "displayValue": "20"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 234,
+            "displayValue": "234",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5646",
+          "uid": "s:2000~a:5646",
+          "displayName": "Callum Ilott",
+          "abbreviation": "ILO",
+          "name": "Callum Ilott",
+          "shortName": "C. Ilott",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/gbr.png",
+            "alt": "Britain",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 21,
+            "displayValue": "21"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 218,
+            "displayValue": "218",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5810",
+          "uid": "s:2000~a:5810",
+          "displayName": "Nolan Siegel",
+          "name": "Nolan Siegel",
+          "shortName": "N. Siegel",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 22,
+            "displayValue": "22"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 213,
+            "displayValue": "213",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5842",
+          "uid": "s:2000~a:5842",
+          "displayName": "Louis Foster",
+          "name": "Louis Foster",
+          "shortName": "L. Foster",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+            "alt": "England",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 22,
+            "displayValue": "22"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 213,
+            "displayValue": "213",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5743",
+          "uid": "s:2000~a:5743",
+          "displayName": "Robert Shwartzman",
+          "abbreviation": "SHW",
+          "name": "Robert Shwartzman",
+          "shortName": "R. Shwartzman",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/isr.png",
+            "alt": "Israel",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 24,
+            "displayValue": "24"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 211,
+            "displayValue": "211",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5750",
+          "uid": "s:2000~a:5750",
+          "displayName": "Sting Ray Robb",
+          "name": "Sting Ray Robb",
+          "shortName": "S. Robb",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 25,
+            "displayValue": "25"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 181,
+            "displayValue": "181",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5705",
+          "uid": "s:2000~a:5705",
+          "displayName": "Devlin DeFrancesco",
+          "name": "Devlin DeFrancesco",
+          "shortName": "D. DeFrancesco",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+            "alt": "Canada",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 26,
+            "displayValue": "26"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 171,
+            "displayValue": "171",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "5836",
+          "uid": "s:2000~a:5836",
+          "displayName": "Jacob Abel",
+          "name": "Jacob Abel",
+          "shortName": "J. Abel",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 27,
+            "displayValue": "27"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 123,
+            "displayValue": "123",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": true
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": true
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "432",
+          "uid": "s:2000~a:432",
+          "displayName": "Takuma Sato",
+          "abbreviation": "SAT",
+          "name": "Takuma Sato",
+          "shortName": "T. Sato",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
+            "alt": "Japan",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 28,
+            "displayValue": "28"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 36,
+            "displayValue": "36",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "33",
+          "uid": "s:2000~a:33",
+          "displayName": "Helio Castroneves",
+          "name": "Helio Castroneves",
+          "shortName": "H. Castroneves",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+            "alt": "Brazil",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 29,
+            "displayValue": "29"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 20,
+            "displayValue": "20",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "578",
+          "uid": "s:2000~a:578",
+          "displayName": "Ed Carpenter",
+          "name": "Ed Carpenter",
+          "shortName": "E. Carpenter"
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 30,
+            "displayValue": "30"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 16,
+            "displayValue": "16",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "4781",
+          "uid": "s:2000~a:4781",
+          "displayName": "Jack Harvey",
+          "name": "Jack Harvey",
+          "shortName": "J. Harvey",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+            "alt": "England",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 31,
+            "displayValue": "31"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 12,
+            "displayValue": "12",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "533",
+          "uid": "s:2000~a:533",
+          "displayName": "Ryan Hunter-Reay",
+          "name": "Ryan Hunter-Reay",
+          "shortName": "R. Hunter-Reay"
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 32,
+            "displayValue": "32"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 10,
+            "displayValue": "10",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "4539",
+          "uid": "s:2000~a:4539",
+          "displayName": "Kyle Larson",
+          "name": "Kyle Larson",
+          "shortName": "K. Larson",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 33,
+            "displayValue": "33"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 6,
+            "displayValue": "6",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      },
+      {
+        "athlete": {
+          "id": "775",
+          "uid": "s:2000~a:775",
+          "displayName": "Marco Andretti",
+          "name": "Marco Andretti",
+          "shortName": "M. Andretti",
+          "flag": {
+            "href": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+            "alt": "USA",
+            "rel": [
+              "country-flag"
+            ]
+          }
+        },
+        "stats": [
+          {
+            "name": "rank",
+            "displayName": "Rank",
+            "shortDisplayName": "RK",
+            "description": "Rank",
+            "abbreviation": "RK",
+            "type": "rank",
+            "value": 34,
+            "displayValue": "34"
+          },
+          {
+            "name": "championshipPts",
+            "displayName": "Points",
+            "shortDisplayName": "PTS",
+            "description": "Championship Points",
+            "abbreviation": "PTS",
+            "type": "points",
+            "value": 5,
+            "displayValue": "5",
+            "topFinish": 0
+          },
+          {
+            "displayName": "Grand Prix of St. Petersburg",
+            "shortName": "Grand Prix of St. Petersburg",
+            "description": "Grand Prix of St. Petersburg",
+            "id": "202503020104",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Thermal",
+            "shortName": "Grand Prix of Thermal",
+            "description": "Grand Prix of Thermal",
+            "id": "202503234262",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Long Beach",
+            "shortName": "Grand Prix of Long Beach",
+            "description": "Grand Prix of Long Beach",
+            "id": "202504130502",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Alabama",
+            "shortName": "Grand Prix of Alabama",
+            "description": "Grand Prix of Alabama",
+            "id": "202505040752",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Indianapolis (Road Course)",
+            "shortName": "Grand Prix of Indianapolis (Road Course)",
+            "description": "Grand Prix of Indianapolis (Road Course)",
+            "id": "202505104000",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Indianapolis 500",
+            "shortName": "Indianapolis 500",
+            "description": "Indianapolis 500",
+            "id": "202505250106",
+            "played": true
+          },
+          {
+            "displayName": "Grand Prix of Detroit",
+            "shortName": "Grand Prix of Detroit",
+            "description": "Grand Prix of Detroit",
+            "id": "202506010120",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Illinois",
+            "shortName": "Grand Prix of Illinois",
+            "description": "Grand Prix of Illinois",
+            "id": "202506150785",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Road America",
+            "shortName": "Grand Prix of Road America",
+            "description": "Grand Prix of Road America",
+            "id": "202506220111",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Mid-Ohio",
+            "shortName": "Grand Prix of Mid-Ohio",
+            "description": "Grand Prix of Mid-Ohio",
+            "id": "202507060119",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 1",
+            "shortName": "Grand Prix of Iowa Race 1",
+            "description": "Grand Prix of Iowa Race 1",
+            "id": "202507120118",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Iowa Race 2",
+            "shortName": "Grand Prix of Iowa Race 2",
+            "description": "Grand Prix of Iowa Race 2",
+            "id": "202507133888",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Toronto",
+            "shortName": "Grand Prix of Toronto",
+            "description": "Grand Prix of Toronto",
+            "id": "202507200508",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Monterey",
+            "shortName": "Grand Prix of Monterey",
+            "description": "Grand Prix of Monterey",
+            "id": "202507271784",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Portland",
+            "shortName": "Grand Prix of Portland",
+            "description": "Grand Prix of Portland",
+            "id": "202508100790",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Milwaukee",
+            "shortName": "Grand Prix of Milwaukee",
+            "description": "Grand Prix of Milwaukee",
+            "id": "202508244252",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "displayName": "Grand Prix of Nashville",
+            "shortName": "Grand Prix of Nashville",
+            "description": "Grand Prix of Nashville",
+            "id": "202508313999",
+            "played": false,
+            "value": 0,
+            "displayValue": " "
+          },
+          {
+            "id": "0",
+            "name": "overall",
+            "displayName": "Overall",
+            "abbreviation": "",
+            "type": "overall"
+          }
+        ]
+      }
+    ]
+  }
+}

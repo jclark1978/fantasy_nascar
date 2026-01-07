@@ -1,0 +1,6 @@
+body{font-family:Inter,system-ui,Arial,sans-serif;background:#071427;color:#eaf2ff;margin:0;padding:20px}
+.app{max-width:900px;margin:0 auto}
+header h1{margin:0 0 12px}
+button{padding:8px 12px;border-radius:8px;border:none;background:#1f3e72;color:#fff;margin-right:8px}
+section{background:#0f2a4a;padding:12px;border-radius:8px;margin-top:12px}
+ul{padding-left:18px}
