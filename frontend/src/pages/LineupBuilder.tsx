@@ -391,9 +391,9 @@ export default function LineupBuilder(){
 
       {eligibility && (
         <div className="grid three">
-          {renderTier('Top Tier', 'top', eligibility.tiers?.top?.drivers || [])}
-          {renderTier('Middle Tier', 'middle', eligibility.tiers?.middle?.drivers || [])}
-          {renderTier('Bottom Tier', 'bottom', eligibility.tiers?.bottom?.drivers || [])}
+          {renderTier('Group A', 'top', eligibility.tiers?.top?.drivers || [])}
+          {renderTier('Group B', 'middle', eligibility.tiers?.middle?.drivers || [])}
+          {renderTier('Group C', 'bottom', eligibility.tiers?.bottom?.drivers || [])}
         </div>
       )}
 
@@ -416,15 +416,15 @@ export default function LineupBuilder(){
           <h3>Commissioner Settings</h3>
           <div className="grid three">
             <div>
-              <label>Top picks</label>
+              <label>Group A picks</label>
               <input type="number" min="0" value={settingsDraft.top_pick_count} onChange={e=>setSettingsDraft({...settingsDraft, top_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Middle picks</label>
+              <label>Group B picks</label>
               <input type="number" min="0" value={settingsDraft.middle_pick_count} onChange={e=>setSettingsDraft({...settingsDraft, middle_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Bottom picks</label>
+              <label>Group C picks</label>
               <input type="number" min="0" value={settingsDraft.bottom_pick_count} onChange={e=>setSettingsDraft({...settingsDraft, bottom_pick_count: e.target.value})} />
             </div>
           </div>

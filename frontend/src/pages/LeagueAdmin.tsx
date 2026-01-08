@@ -141,15 +141,15 @@ export default function LeagueAdmin(){
           <h3>Lineup Rules</h3>
           <div className="grid three">
             <div>
-              <label>Top picks</label>
+              <label>Group A picks</label>
               <input type="number" min="0" value={settings.top_pick_count} onChange={e=>setSettings({...settings, top_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Middle picks</label>
+              <label>Group B picks</label>
               <input type="number" min="0" value={settings.middle_pick_count} onChange={e=>setSettings({...settings, middle_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Bottom picks</label>
+              <label>Group C picks</label>
               <input type="number" min="0" value={settings.bottom_pick_count} onChange={e=>setSettings({...settings, bottom_pick_count: e.target.value})} />
             </div>
           </div>
