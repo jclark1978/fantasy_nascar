@@ -37,6 +37,18 @@ app.add_middleware(
 )
 
 
+def _ensure_lineup_role_column() -> None:
+    # SQLite doesn't support ALTER TABLE ... IF NOT EXISTS for columns reliably.
+    with engine.connect() as connection:
+        result = connection.exec_driver_sql("PRAGMA table_info(lineup_entries)")
+        columns = {row[1] for row in result.fetchall()}
+        if "role" not in columns:
+            connection.exec_driver_sql("ALTER TABLE lineup_entries ADD COLUMN role VARCHAR DEFAULT 'starter'")
+
+
+_ensure_lineup_role_column()
+
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -338,7 +350,10 @@ def lineup_eligibility(
     if existing_lineup:
         current_lineup = {
             "id": existing_lineup.id,
-            "entries": [{"driver_id": entry.driver_id, "tier": entry.tier} for entry in existing_lineup.entries],
+            "entries": [
+                {"driver_id": entry.driver_id, "tier": entry.tier, "role": entry.role or "starter"}
+                for entry in existing_lineup.entries
+            ],
         }
 
     return schemas.LineupEligibility(
@@ -349,9 +364,21 @@ def lineup_eligibility(
         locked=locked,
         settings=schemas.LeagueSettingsOut.model_validate(league.settings),
         tiers={
-            "top": schemas.LineupTier(max_picks=league.settings.top_pick_count, drivers=top_pool),
-            "middle": schemas.LineupTier(max_picks=league.settings.middle_pick_count, drivers=middle_pool),
-            "bottom": schemas.LineupTier(max_picks=league.settings.bottom_pick_count, drivers=bottom_pool),
+            "top": schemas.LineupTier(
+                starter_max=league.settings.top_pick_count,
+                bench_max=league.settings.top_pick_count,
+                drivers=top_pool,
+            ),
+            "middle": schemas.LineupTier(
+                starter_max=league.settings.middle_pick_count,
+                bench_max=league.settings.middle_pick_count,
+                drivers=middle_pool,
+            ),
+            "bottom": schemas.LineupTier(
+                starter_max=league.settings.bottom_pick_count,
+                bench_max=league.settings.bottom_pick_count,
+                drivers=bottom_pool,
+            ),
         },
         current_lineup=current_lineup,
     )
@@ -385,18 +412,29 @@ def save_lineup(
     if lock_time and datetime.now(tz=timezone.utc) >= lock_time:
         raise HTTPException(status_code=400, detail="Lineups are locked for this race")
 
-    entries_by_tier = {"top": [], "middle": [], "bottom": []}
+    entries_by_tier = {"top": {"starter": [], "bench": []}, "middle": {"starter": [], "bench": []}, "bottom": {"starter": [], "bench": []}}
     for entry in lineup_in.entries:
         if entry.tier not in entries_by_tier:
             raise HTTPException(status_code=400, detail=f"Unknown tier: {entry.tier}")
-        entries_by_tier[entry.tier].append(entry.driver_id)
+        if entry.role not in ("starter", "bench"):
+            raise HTTPException(status_code=400, detail="Unknown role")
+        entries_by_tier[entry.tier][entry.role].append(entry.driver_id)
 
-    if len(entries_by_tier["top"]) > league.settings.top_pick_count:
-        raise HTTPException(status_code=400, detail="Too many top-tier selections")
-    if len(entries_by_tier["middle"]) > league.settings.middle_pick_count:
-        raise HTTPException(status_code=400, detail="Too many middle-tier selections")
-    if len(entries_by_tier["bottom"]) > league.settings.bottom_pick_count:
-        raise HTTPException(status_code=400, detail="Too many bottom-tier selections")
+    def validate_counts(tier: str, limit: int):
+        starters = len(entries_by_tier[tier]["starter"])
+        bench = len(entries_by_tier[tier]["bench"])
+        if starters > limit:
+            raise HTTPException(status_code=400, detail=f"Too many {tier}-tier starters")
+        if bench > limit:
+            raise HTTPException(status_code=400, detail=f"Too many {tier}-tier bench selections")
+        if starters != bench:
+            raise HTTPException(status_code=400, detail=f"Starters and bench must match for {tier} tier")
+        if starters != limit:
+            raise HTTPException(status_code=400, detail=f"Must select exactly {limit} starters/bench for {tier} tier")
+
+    validate_counts("top", league.settings.top_pick_count)
+    validate_counts("middle", league.settings.middle_pick_count)
+    validate_counts("bottom", league.settings.bottom_pick_count)
 
     standings_data = get_driver_standings(lineup_in.season_year, series=1)
     entries = standings_data.get("standings", {}).get("entries", []) if isinstance(standings_data, dict) else []
@@ -469,7 +507,7 @@ def save_lineup(
         db.flush()
 
     for entry in lineup_in.entries:
-        lineup.entries.append(models.LineupEntry(driver_id=entry.driver_id, tier=entry.tier))
+        lineup.entries.append(models.LineupEntry(driver_id=entry.driver_id, tier=entry.tier, role=entry.role))
 
     db.commit()
     db.refresh(lineup)

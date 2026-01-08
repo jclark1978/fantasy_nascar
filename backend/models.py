@@ -45,11 +45,11 @@ class LeagueSettings(Base):
     __tablename__ = "league_settings"
     id = Column(Integer, primary_key=True, index=True)
     league_id = Column(Integer, ForeignKey("leagues.id"), unique=True, nullable=False)
-    top_pick_count = Column(Integer, default=3)
-    middle_pick_count = Column(Integer, default=4)
-    bottom_pick_count = Column(Integer, default=4)
-    top_rank_max = Column(Integer, default=10)
-    middle_rank_max = Column(Integer, default=20)
+    top_pick_count = Column(Integer, default=1)
+    middle_pick_count = Column(Integer, default=2)
+    bottom_pick_count = Column(Integer, default=1)
+    top_rank_max = Column(Integer, default=9)
+    middle_rank_max = Column(Integer, default=24)
     max_starts_per_driver = Column(Integer, default=5)
     lock_hours = Column(Integer, default=29)
 
@@ -88,6 +88,7 @@ class LineupEntry(Base):
     lineup_id = Column(Integer, ForeignKey("lineups.id"), nullable=False)
     driver_id = Column(String, nullable=False)
     tier = Column(String, nullable=False)
+    role = Column(String, nullable=False, default="starter")
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
     lineup = relationship("Lineup", back_populates="entries")

@@ -48,7 +48,7 @@ export async function fetchEligibility(token:string, params:{league_id:number, r
   return getJSON('/lineups/eligible?' + qs.toString(), {headers:{'authorization':'Bearer '+token}})
 }
 
-export async function saveLineup(token:string, payload:{league_id:number, race_id:string, season_year:number, entries:{driver_id:string, tier:string}[]}){
+export async function saveLineup(token:string, payload:{league_id:number, race_id:string, season_year:number, entries:{driver_id:string, tier:string, role:string}[]}){
   return getJSON('/lineups', {method:'POST', headers:{'content-type':'application/json','authorization':'Bearer '+token}, body: JSON.stringify(payload)})
 }
 

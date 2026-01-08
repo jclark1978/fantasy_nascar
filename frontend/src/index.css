@@ -188,6 +188,23 @@ button:disabled{opacity:0.6;cursor:not-allowed}
   justify-content:space-between;
   margin-bottom:12px;
 }
+.tier-meta{
+  display:flex;
+  gap:10px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.tier-clear{
+  background:#fff;
+  color:var(--muted);
+  border:1px solid var(--line);
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:0.75rem;
+  text-transform:uppercase;
+  letter-spacing:0.06em;
+}
+.tier-clear:hover{color:var(--accent-dark);border-color:var(--accent)}
 .chip{
   background:#121212;
   color:#fff;
@@ -216,6 +233,7 @@ button:disabled{opacity:0.6;cursor:not-allowed}
   display:flex;
   gap:8px;
   align-items:center;
+  flex-wrap:wrap;
 }
 .driver-card.active{
   border-color:var(--accent);
@@ -223,6 +241,19 @@ button:disabled{opacity:0.6;cursor:not-allowed}
 }
 .driver-name{font-weight:700}
 .driver-meta{font-size:0.8rem;color:var(--muted)}
+.driver-name-link{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  padding:0;
+  border:none;
+  background:none;
+  color:var(--ink);
+  font-weight:700;
+  font-size:0.98rem;
+  cursor:pointer;
+}
+.driver-name-link:hover{color:var(--accent)}
 .summary{
   display:flex;
   align-items:center;

@@ -86,7 +86,8 @@ class LineupDriver(BaseModel):
 
 
 class LineupTier(BaseModel):
-    max_picks: int
+    starter_max: int
+    bench_max: int
     drivers: List[LineupDriver]
 
 
@@ -104,6 +105,7 @@ class LineupEligibility(BaseModel):
 class LineupEntryIn(BaseModel):
     driver_id: str
     tier: str
+    role: str
 
 
 class LineupCreate(BaseModel):
@@ -116,6 +118,7 @@ class LineupCreate(BaseModel):
 class LineupEntryOut(BaseModel):
     driver_id: str
     tier: str
+    role: str
 
     class Config:
         from_attributes = True

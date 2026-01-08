@@ -139,17 +139,18 @@ export default function LeagueAdmin(){
       {selected && selected.role === 'commissioner' && settings && (
         <section className="panel">
           <h3>Lineup Rules</h3>
+          <div className="notice">Bench slots mirror starters for each group.</div>
           <div className="grid three">
             <div>
-              <label>Group A picks</label>
+              <label>Group A starters</label>
               <input type="number" min="0" value={settings.top_pick_count} onChange={e=>setSettings({...settings, top_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Group B picks</label>
+              <label>Group B starters</label>
               <input type="number" min="0" value={settings.middle_pick_count} onChange={e=>setSettings({...settings, middle_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Group C picks</label>
+              <label>Group C starters</label>
               <input type="number" min="0" value={settings.bottom_pick_count} onChange={e=>setSettings({...settings, bottom_pick_count: e.target.value})} />
             </div>
           </div>

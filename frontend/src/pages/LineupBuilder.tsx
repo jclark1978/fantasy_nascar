@@ -17,7 +17,11 @@ type LeagueMembership = {league:{id:number,name:string,code:string,settings:any}
 type Race = {raceId:string, name:string, date?:string}
 type Driver = {driver_id:string, name?:string, rank?:number, used:number, remaining:number}
 
-const emptySelection = {top: [] as string[], middle: [] as string[], bottom: [] as string[]}
+const emptySelection = {
+  top: {starter: [] as string[], bench: [] as string[]},
+  middle: {starter: [] as string[], bench: [] as string[]},
+  bottom: {starter: [] as string[], bench: [] as string[]},
+}
 const formatDriverName = (value?:string) => {
   if(!value) return ''
   if(value.includes(' ')) return value
@@ -150,20 +154,42 @@ export default function LineupBuilder(){
   }
 
   function isSelected(driverId:string){
-    return selection.top.includes(driverId) || selection.middle.includes(driverId) || selection.bottom.includes(driverId)
+    return selection.top.starter.includes(driverId)
+      || selection.top.bench.includes(driverId)
+      || selection.middle.starter.includes(driverId)
+      || selection.middle.bench.includes(driverId)
+      || selection.bottom.starter.includes(driverId)
+      || selection.bottom.bench.includes(driverId)
   }
 
-  function toggleDriver(tier:'top'|'middle'|'bottom', driverId:string){
+  function toggleDriver(tier:'top'|'middle'|'bottom', role:'starter'|'bench', driverId:string){
     setSelection(prev => {
-      const current = prev[tier]
-      const alreadySelected = prev.top.includes(driverId) || prev.middle.includes(driverId) || prev.bottom.includes(driverId)
+      const current = prev[tier][role]
+      const alreadySelected = isSelected(driverId)
       if(current.includes(driverId)){
-        return {...prev, [tier]: current.filter(id => id !== driverId)}
+        return {...prev, [tier]: {...prev[tier], [role]: current.filter(id => id !== driverId)}}
       }
       if(alreadySelected) return prev
-      const max = eligibility?.tiers?.[tier]?.max_picks || 0
+      const max = eligibility?.tiers?.[tier]?.[role === 'starter' ? 'starter_max' : 'bench_max'] || 0
       if(current.length >= max) return prev
-      return {...prev, [tier]: [...current, driverId]}
+      return {...prev, [tier]: {...prev[tier], [role]: [...current, driverId]}}
+    })
+  }
+
+  function clearGroup(tier:'top'|'middle'|'bottom'){
+    setSelection(prev => ({...prev, [tier]: {starter: [], bench: []}}))
+  }
+  function toggleDriver(tier:'top'|'middle'|'bottom', role:'starter'|'bench', driverId:string){
+    setSelection(prev => {
+      const current = prev[tier][role]
+      const alreadySelected = isSelected(driverId)
+      if(current.includes(driverId)){
+        return {...prev, [tier]: {...prev[tier], [role]: current.filter(id => id !== driverId)}}
+      }
+      if(alreadySelected) return prev
+      const max = eligibility?.tiers?.[tier]?.[role === 'starter' ? 'starter_max' : 'bench_max'] || 0
+      if(current.length >= max) return prev
+      return {...prev, [tier]: {...prev[tier], [role]: [...current, driverId]}}
     })
   }
 
@@ -178,8 +204,8 @@ export default function LineupBuilder(){
       if(data.current_lineup?.entries){
         const next = {...emptySelection}
         for(const entry of data.current_lineup.entries){
-          if(next[entry.tier]){
-            next[entry.tier].push(entry.driver_id)
+          if(next[entry.tier] && next[entry.tier][entry.role]){
+            next[entry.tier][entry.role].push(entry.driver_id)
           }
         }
         setSelection(next)
@@ -234,9 +260,12 @@ export default function LineupBuilder(){
     setError('')
     try{
       const entries = [
-        ...selection.top.map(driver_id => ({driver_id, tier:'top'})),
-        ...selection.middle.map(driver_id => ({driver_id, tier:'middle'})),
-        ...selection.bottom.map(driver_id => ({driver_id, tier:'bottom'})),
+        ...selection.top.starter.map(driver_id => ({driver_id, tier:'top', role:'starter'})),
+        ...selection.top.bench.map(driver_id => ({driver_id, tier:'top', role:'bench'})),
+        ...selection.middle.starter.map(driver_id => ({driver_id, tier:'middle', role:'starter'})),
+        ...selection.middle.bench.map(driver_id => ({driver_id, tier:'middle', role:'bench'})),
+        ...selection.bottom.starter.map(driver_id => ({driver_id, tier:'bottom', role:'starter'})),
+        ...selection.bottom.bench.map(driver_id => ({driver_id, tier:'bottom', role:'bench'})),
       ]
       const season_year = eligibility.season_year
       await saveLineup(token, {league_id: leagueId, race_id: raceId, season_year, entries})
@@ -274,28 +303,39 @@ export default function LineupBuilder(){
   }
 
   function renderTier(label:string, key:'top'|'middle'|'bottom', drivers:Driver[]){
-    const max = eligibility?.tiers?.[key]?.max_picks || 0
-    const selectedCount = selection[key].length
+    const starterMax = eligibility?.tiers?.[key]?.starter_max || 0
+    const benchMax = eligibility?.tiers?.[key]?.bench_max || 0
+    const starterCount = selection[key].starter.length
+    const benchCount = selection[key].bench.length
     return (
       <section className="tier">
         <header>
           <h3>{label}</h3>
-          <span className="chip">{selectedCount}/{max} picks</span>
+          <div className="tier-meta">
+            <span className="chip">Starters {starterCount}/{starterMax} • Bench {benchCount}/{benchMax}</span>
+            <button className="tier-clear" onClick={()=>clearGroup(key)}>Clear Group</button>
+          </div>
         </header>
         <div className="driver-list">
           {drivers.map(driver => {
-            const picked = selection[key].includes(driver.driver_id)
-            const disabled = !picked && (selectedCount >= max || isSelected(driver.driver_id))
+            const pickedStarter = selection[key].starter.includes(driver.driver_id)
+            const pickedBench = selection[key].bench.includes(driver.driver_id)
+            const disabledStarter = !pickedStarter && (starterCount >= starterMax || isSelected(driver.driver_id))
+            const disabledBench = !pickedBench && (benchCount >= benchMax || isSelected(driver.driver_id))
             return (
-              <div key={driver.driver_id} className={`driver-card ${picked ? 'active' : ''}`}>
+              <div key={driver.driver_id} className={`driver-card ${(pickedStarter || pickedBench) ? 'active' : ''}`}>
                 <div>
-                  <div className="driver-name">{formatDriverName(driver.name || driver.driver_id)}</div>
+                  <button className="driver-name-link" onClick={()=>openDriverDetails(driver)}>
+                    {formatDriverName(driver.name || driver.driver_id)}
+                  </button>
                   <div className="driver-meta">Rank {driver.rank} • {driver.remaining} starts left</div>
                 </div>
                 <div className="driver-actions">
-                  <button className="ghost" onClick={()=>openDriverDetails(driver)}>Details</button>
-                  <button disabled={disabled} onClick={()=>toggleDriver(key, driver.driver_id)}>
-                    {picked ? 'Remove' : 'Add'}
+                  <button className={pickedStarter ? 'ghost' : ''} disabled={disabledStarter} onClick={()=>toggleDriver(key, 'starter', driver.driver_id)}>
+                    {pickedStarter ? 'Remove Starter' : 'Add Starter'}
+                  </button>
+                  <button className={pickedBench ? 'ghost' : ''} disabled={disabledBench} onClick={()=>toggleDriver(key, 'bench', driver.driver_id)}>
+                    {pickedBench ? 'Remove Bench' : 'Add Bench'}
                   </button>
                 </div>
               </div>
@@ -385,6 +425,7 @@ export default function LineupBuilder(){
             <div>Lock time: {eligibility.lock_time ? new Date(eligibility.lock_time).toLocaleString() : 'Unknown'}</div>
             <div>Status: {eligibility.locked ? 'Locked' : 'Open'}</div>
             <div>Max starts per driver: {eligibility.settings.max_starts_per_driver}</div>
+            <div>Starters must equal bench in each group.</div>
           </div>
         )}
       </section>
@@ -401,7 +442,7 @@ export default function LineupBuilder(){
         <section className="panel">
           <div className="summary">
             <div>
-              <strong>Selected:</strong> {selection.top.length + selection.middle.length + selection.bottom.length} drivers
+              <strong>Selected:</strong> {selection.top.starter.length + selection.top.bench.length + selection.middle.starter.length + selection.middle.bench.length + selection.bottom.starter.length + selection.bottom.bench.length} drivers
             </div>
             <button disabled={busy || eligibility.locked} onClick={submitLineup}>
               Save Lineup
@@ -416,15 +457,15 @@ export default function LineupBuilder(){
           <h3>Commissioner Settings</h3>
           <div className="grid three">
             <div>
-              <label>Group A picks</label>
+              <label>Group A starters</label>
               <input type="number" min="0" value={settingsDraft.top_pick_count} onChange={e=>setSettingsDraft({...settingsDraft, top_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Group B picks</label>
+              <label>Group B starters</label>
               <input type="number" min="0" value={settingsDraft.middle_pick_count} onChange={e=>setSettingsDraft({...settingsDraft, middle_pick_count: e.target.value})} />
             </div>
             <div>
-              <label>Group C picks</label>
+              <label>Group C starters</label>
               <input type="number" min="0" value={settingsDraft.bottom_pick_count} onChange={e=>setSettingsDraft({...settingsDraft, bottom_pick_count: e.target.value})} />
             </div>
           </div>
