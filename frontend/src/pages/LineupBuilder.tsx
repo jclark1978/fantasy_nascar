@@ -462,20 +462,16 @@ export default function LineupBuilder(){
           <div className="drawer-card">
             <button className="close" onClick={closeDriverDetails}>Close</button>
             {detailDriver && (
-              <div className="drawer-header">
-                <div>
+              <div className="drawer-hero">
+                <div className="drawer-hero-text">
                   <div className="drawer-title">{formatDriverName(detailDriver.name || detailDriver.driver_id)}</div>
                   <div className="driver-meta">Rank {detailDriver.rank} • {detailDriver.remaining} starts left</div>
+                  {detailProfile?.car_number_image && (
+                    <img className="car-number-large" src={detailProfile.car_number_image} alt="Car number" />
+                  )}
                 </div>
-                {(detailProfile?.photo_url || detailProfile?.car_number_image) && (
-                  <div className="headshot-wrap">
-                    {detailProfile?.photo_url && (
-                      <img className="headshot" src={detailProfile.photo_url} alt={detailProfile.name || detailDriver.name || 'Driver'} />
-                    )}
-                    {detailProfile.car_number_image && (
-                      <img className="car-number" src={detailProfile.car_number_image} alt="Car number" />
-                    )}
-                  </div>
+                {detailProfile?.photo_url && (
+                  <img className="headshot-large" src={detailProfile.photo_url} alt={detailProfile.name || detailDriver.name || 'Driver'} />
                 )}
               </div>
             )}
