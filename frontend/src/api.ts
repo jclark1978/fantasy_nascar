@@ -75,3 +75,8 @@ export async function fetchDriverInfo(driverId:string){
 export async function fetchDriverPhotos(driverId:string){
   return getJSON(`/drivers/${driverId}/photos`)
 }
+
+export async function fetchDriverProfile(slug:string, year?:number){
+  const qs = year ? `?year=${year}` : ''
+  return getJSON(`/drivers/${slug}/profile${qs}`)
+}

@@ -18,9 +18,13 @@ export default function Standings(){
       const athlete = entry.athlete || {}
       const stats = entry.stats || []
       const find = (name:string) => stats.find((stat:any)=>stat.name === name)
+      const rawName = athlete.displayName || athlete.fullName || athlete.name
+      const name = rawName && typeof rawName === 'string'
+        ? (rawName.includes(' ') ? rawName : rawName.replace(/([a-z])([A-Z])/g, '$1 $2'))
+        : rawName
       return {
         id: athlete.id,
-        name: athlete.displayName || athlete.fullName || athlete.name,
+        name,
         rank: find('rank')?.displayValue || find('rank')?.value,
         points: find('championshipPts')?.displayValue || find('championshipPts')?.value,
         wins: find('wins')?.displayValue || find('wins')?.value,

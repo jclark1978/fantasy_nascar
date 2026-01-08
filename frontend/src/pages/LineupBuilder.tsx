@@ -10,9 +10,7 @@ import {
   fetchEligibility,
   saveLineup,
   updateLeagueSettings,
-  fetchDriverInfo,
-  fetchDriverStats,
-  fetchDriverPhotos,
+  fetchDriverProfile,
 } from '../api'
 
 type LeagueMembership = {league:{id:number,name:string,code:string,settings:any}, role:string}
@@ -20,6 +18,20 @@ type Race = {raceId:string, name:string, date?:string}
 type Driver = {driver_id:string, name?:string, rank?:number, used:number, remaining:number}
 
 const emptySelection = {top: [] as string[], middle: [] as string[], bottom: [] as string[]}
+const formatDriverName = (value?:string) => {
+  if(!value) return ''
+  if(value.includes(' ')) return value
+  return value.replace(/([a-z])([A-Z])/g, '$1 $2')
+}
+const slugifyName = (value?:string) => {
+  if(!value) return ''
+  return value
+    .toLowerCase()
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/-+/g, '-')
+    .replace(/(^-|-$)/g, '')
+}
 
 export default function LineupBuilder(){
   const [token, setToken] = useState<string | null>(localStorage.getItem('token'))
@@ -42,9 +54,7 @@ export default function LineupBuilder(){
   const [detailLoading, setDetailLoading] = useState(false)
   const [detailError, setDetailError] = useState('')
   const [detailDriver, setDetailDriver] = useState<Driver | null>(null)
-  const [detailInfo, setDetailInfo] = useState<any | null>(null)
-  const [detailStats, setDetailStats] = useState<any[]>([])
-  const [detailPhotos, setDetailPhotos] = useState<any[]>([])
+  const [detailProfile, setDetailProfile] = useState<any | null>(null)
 
   useEffect(()=>{
     fetchRaces().then((data:any)=>setRaces(Array.isArray(data)? data : [])).catch(()=>setRaces([]))
@@ -243,18 +253,15 @@ export default function LineupBuilder(){
     setDetailOpen(true)
     setDetailLoading(true)
     setDetailError('')
-    setDetailInfo(null)
-    setDetailStats([])
-    setDetailPhotos([])
+    setDetailProfile(null)
     try{
-      const [info, stats, photos] = await Promise.all([
-        fetchDriverInfo(driver.driver_id),
-        fetchDriverStats(driver.driver_id),
-        fetchDriverPhotos(driver.driver_id),
-      ])
-      setDetailInfo(info || null)
-      setDetailStats(Array.isArray(stats) ? stats : [])
-      setDetailPhotos(Array.isArray(photos) ? photos : [])
+      const slug = slugifyName(driver.name || driver.driver_id)
+      if(!slug){
+        throw new Error('Driver profile unavailable')
+      }
+      const year = eligibility?.season_year
+      const profile = await fetchDriverProfile(slug, year)
+      setDetailProfile(profile || null)
     }catch(err:any){
       setDetailError(err.message || 'Unable to load driver details')
     }finally{
@@ -282,7 +289,7 @@ export default function LineupBuilder(){
             return (
               <div key={driver.driver_id} className={`driver-card ${picked ? 'active' : ''}`}>
                 <div>
-                  <div className="driver-name">{driver.name || driver.driver_id}</div>
+                  <div className="driver-name">{formatDriverName(driver.name || driver.driver_id)}</div>
                   <div className="driver-meta">Rank {driver.rank} • {driver.remaining} starts left</div>
                 </div>
                 <div className="driver-actions">
@@ -457,11 +464,11 @@ export default function LineupBuilder(){
             {detailDriver && (
               <div className="drawer-header">
                 <div>
-                  <div className="drawer-title">{detailDriver.name || detailDriver.driver_id}</div>
+                  <div className="drawer-title">{formatDriverName(detailDriver.name || detailDriver.driver_id)}</div>
                   <div className="driver-meta">Rank {detailDriver.rank} • {detailDriver.remaining} starts left</div>
                 </div>
-                {detailInfo?.headshot?.href && (
-                  <img className="headshot" src={detailInfo.headshot.href} alt={detailInfo.fullName || detailDriver.name || 'Driver'} />
+                {detailProfile?.photo_url && (
+                  <img className="headshot" src={detailProfile.photo_url} alt={detailProfile.name || detailDriver.name || 'Driver'} />
                 )}
               </div>
             )}
@@ -469,48 +476,18 @@ export default function LineupBuilder(){
             {detailError && <div className="error">{detailError}</div>}
             {!detailLoading && !detailError && (
               <>
-                {detailInfo && (
+                {detailProfile && (
                   <div className="panel">
                     <h3>Profile</h3>
-                    <div className="driver-meta">{detailInfo.fullName || detailInfo.displayName}</div>
-                    {detailInfo.dateOfBirth && <div className="driver-meta">Born: {detailInfo.dateOfBirth}</div>}
-                    {detailInfo.birthPlace && (
-                      <div className="driver-meta">
-                        Birthplace: {typeof detailInfo.birthPlace === 'string'
-                          ? detailInfo.birthPlace
-                          : [detailInfo.birthPlace?.city, detailInfo.birthPlace?.state, detailInfo.birthPlace?.country]
-                              .filter(Boolean)
-                              .join(', ')}
-                      </div>
-                    )}
-                  </div>
-                )}
-                {detailStats.length > 0 && (
-                  <div className="panel">
-                    <h3>Stats</h3>
-                    <div className="race-grid">
-                      {detailStats.slice(0, 4).map((stat:any) => (
-                        <div key={stat.year} className="race-card">
-                          <div className="race-name">{stat.year}</div>
-                          <div className="race-meta">Rank: {stat.rank}</div>
-                          <div className="race-meta">Starts: {stat.starts}</div>
-                          <div className="race-meta">Wins: {stat.wins}</div>
-                          <div className="race-meta">Top 5: {stat.top5}</div>
-                          <div className="race-meta">Top 10: {stat.top10}</div>
-                          <div className="race-meta">Points: {stat.points}</div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-                {detailPhotos.length > 0 && (
-                  <div className="panel">
-                    <h3>Photos</h3>
-                    <div className="photo-grid">
-                      {detailPhotos.slice(0, 6).map((photo:any, index:number) => (
-                        <img key={`${photo.imgSrc || photo.href}-${index}`} src={photo.imgSrc || photo.href} alt="Driver" />
-                      ))}
-                    </div>
+                    <div className="driver-meta">{detailProfile.name || formatDriverName(detailDriver.name || detailDriver.driver_id)}</div>
+                    {detailProfile.rank && <div className="driver-meta">Ranking: {detailProfile.rank}</div>}
+                    {detailProfile.points && <div className="driver-meta">Points: {detailProfile.points}</div>}
+                    {detailProfile.car_no && <div className="driver-meta">Car No: {detailProfile.car_no}</div>}
+                    {detailProfile.dob && <div className="driver-meta">Born: {detailProfile.dob}</div>}
+                    {detailProfile.hometown && <div className="driver-meta">Hometown: {detailProfile.hometown}</div>}
+                    {detailProfile.team && <div className="driver-meta">Team: {detailProfile.team}</div>}
+                    {detailProfile.crew_chief && <div className="driver-meta">Crew Chief: {detailProfile.crew_chief}</div>}
+                    {detailProfile.bio && <div className="driver-meta">Bio: {detailProfile.bio}</div>}
                   </div>
                 )}
               </>

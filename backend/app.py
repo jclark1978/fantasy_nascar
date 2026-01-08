@@ -1,10 +1,13 @@
 import os
 import secrets
+import subprocess
+import sys
 from datetime import datetime, timedelta, timezone
 from fastapi import FastAPI, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from sqlalchemy import func
+from pathlib import Path
 
 from . import models, schemas
 from .db import engine
@@ -17,6 +20,7 @@ from .api_client import (
     get_driver_stats,
     get_athlete_info,
     get_driver_photos,
+    get_driver_profile,
 )
 from .cache import clear_cache
 
@@ -31,6 +35,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def _generate_league_code(db: Session) -> str:
@@ -74,7 +81,9 @@ def _extract_driver(entry: dict) -> dict | None:
     name = athlete.get("displayName") or athlete.get("fullName") or athlete.get("name")
     rank = _extract_rank(entry)
     if not driver_id or rank is None:
-        return None
+        if not name or rank is None:
+            return None
+        driver_id = name
     return {"driver_id": str(driver_id), "name": name, "rank": rank}
 
 
@@ -162,6 +171,11 @@ def driver_info(driver_id: str):
 @app.get("/drivers/{driver_id}/photos")
 def driver_photos(driver_id: str, page: int = 1):
     return get_driver_photos(driver_id, page)
+
+
+@app.get("/drivers/{driver_slug}/profile")
+def driver_profile(driver_slug: str, year: int | None = None):
+    return get_driver_profile(driver_slug, year)
 
 
 @app.post("/leagues", response_model=schemas.LeagueOut)
@@ -487,3 +501,64 @@ def admin_refresh():
     """Clear the internal cache (useful for testing)."""
     clear_cache()
     return {"status": "cache_cleared"}
+
+
+@app.post("/admin/refresh-data")
+def admin_refresh_data(
+    season: int = None,
+    scrape_schedule: bool = True,
+    scrape_standings: bool = True,
+    normalize: bool = True,
+    current_user: models.User = Depends(get_current_user),
+):
+    season = season or datetime.now(tz=timezone.utc).year
+    results = []
+
+    def run_step(label: str, args: list[str]) -> None:
+        try:
+            completed = subprocess.run(
+                args,
+                cwd=REPO_ROOT,
+                capture_output=True,
+                text=True,
+                check=True,
+            )
+            results.append({"step": label, "ok": True, "stdout": completed.stdout.strip()})
+        except subprocess.CalledProcessError as exc:
+            results.append(
+                {
+                    "step": label,
+                    "ok": False,
+                    "stdout": exc.stdout.strip(),
+                    "stderr": exc.stderr.strip(),
+                    "code": exc.returncode,
+                }
+            )
+
+    if scrape_schedule:
+        run_step("scrape_schedule_roster", [sys.executable, "scripts/nascar_wiki_scraper.py"])
+
+    if scrape_standings:
+        run_step("scrape_standings", [sys.executable, "scripts/driver_scraper.py"])
+
+    if normalize:
+        run_step(
+            "normalize",
+            [
+                sys.executable,
+                "scripts/normalize_scraped_data.py",
+                "--schedule",
+                f"data/raw/nascar_{season}_schedule.json",
+                "--roster",
+                f"data/raw/nascar_{season}_teams_and_drivers.json",
+                "--standings",
+                "data/raw/nascar_cup_standings.json",
+                "--season",
+                str(season),
+                "--out-dir",
+                "data/normalized",
+            ],
+        )
+
+    ok = all(step["ok"] for step in results)
+    return {"ok": ok, "season": season, "results": results}

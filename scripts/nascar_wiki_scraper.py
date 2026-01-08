@@ -13,8 +13,9 @@ from bs4 import BeautifulSoup, Tag
 
 WIKI_URL = "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series"
 
-OUT_SCHEDULE = Path("nascar_2026_schedule.json")
-OUT_TEAMS = Path("nascar_2026_teams_and_drivers.json")
+BASE_DIR = Path(__file__).resolve().parents[1]
+OUT_SCHEDULE = BASE_DIR / "data/raw/nascar_2026_schedule.json"
+OUT_TEAMS = BASE_DIR / "data/raw/nascar_2026_teams_and_drivers.json"
 
 SEASON_YEAR = 2026
 SERIES = "NASCAR Cup Series"
@@ -24,6 +25,7 @@ MONTHS = {
     "May": 5, "June": 6, "July": 7, "August": 8,
     "September": 9, "October": 10, "November": 11, "December": 12
 }
+KNOWN_MANUFACTURERS = {"Chevrolet", "Ford", "Toyota"}
 
 
 # ----------------------------
@@ -79,6 +81,20 @@ def parse_driver_cell(text: str) -> Tuple[str, bool]:
         rookie = True
         t = normalize_ws(m.group(1))
     return t, rookie
+
+
+def looks_like_reference(value: Optional[str]) -> bool:
+    if not value:
+        return False
+    return bool(re.match(r"^\[.+\]$", value.strip())) or value.strip().startswith("#cite")
+
+
+def looks_like_car_no(value: Optional[str]) -> bool:
+    return bool(value and value.strip().isdigit())
+
+
+def is_unknown(value: Optional[str]) -> bool:
+    return not value or value.strip().upper() == "TBA" or looks_like_reference(value)
 
 
 def get_wikitable_by_headers(soup: BeautifulSoup, required_headers: List[str]) -> Optional[Tag]:
@@ -312,37 +328,50 @@ def scrape_teams_and_drivers(soup: BeautifulSoup) -> Dict[str, Any]:
             c_manu = get_cell(i_manu)
             c_team = get_cell(i_team)
 
-            if c_manu:
-                manu_txt = cell_text(c_manu)
-                if manu_txt:
-                    link_text, link_url = first_link(c_manu)
-                    current_manu = link_text or manu_txt
-                    current_manu_url = link_url
+        manu_txt = cell_text(c_manu) if c_manu else None
+        team_txt = cell_text(c_team) if c_team else None
+        car_no = cell_text(get_cell(i_no)) if get_cell(i_no) else None
+        driver_txt = cell_text(get_cell(i_driver)) if get_cell(i_driver) else None
+        original_car_no = car_no
+        crew_chief = cell_text(get_cell(i_cc)) if get_cell(i_cc) else None
 
-            if c_team:
-                team_txt = cell_text(c_team)
-                if team_txt:
-                    link_text, link_url = first_link(c_team)
-                    current_team = link_text or team_txt
-                    current_team_url = link_url
+        if manu_txt:
+            link_text, link_url = first_link(c_manu)
+            candidate = link_text or manu_txt
+            if candidate in KNOWN_MANUFACTURERS:
+                current_manu = candidate
+                current_manu_url = link_url
 
-            car_no = cell_text(get_cell(i_no)) if get_cell(i_no) else None
+        if team_txt and not looks_like_car_no(team_txt):
+            link_text, link_url = first_link(c_team)
+            current_team = link_text or team_txt
+            current_team_url = link_url
 
-            driver = None
-            driver_url = None
-            rookie = None
-            c_driver = get_cell(i_driver)
+        # Handle rows where columns are shifted (common when Wikipedia tables change layout)
+        team_override = None
+        team_override_url = None
+        if manu_txt and manu_txt not in KNOWN_MANUFACTURERS and looks_like_car_no(team_txt) and car_no and not looks_like_car_no(car_no):
+            team_override = manu_txt
+            team_override_url = first_link(c_manu)[1] if c_manu else None
+            if looks_like_car_no(team_txt):
+                car_no = team_txt
+            if original_car_no and not is_unknown(original_car_no):
+                driver_txt = original_car_no
+
+        driver = None
+        driver_url = None
+        rookie = None
+        if driver_txt and not is_unknown(driver_txt) and not looks_like_car_no(driver_txt):
+            dname_raw = driver_txt
+            dname, is_rookie = parse_driver_cell(dname_raw)
+            driver = dname
+            rookie = is_rookie
             if c_driver:
-                raw = cell_text(c_driver)
                 link_text, link_url = first_link(c_driver)
-                dname_raw = link_text or raw
-                if dname_raw:
-                    dname, is_rookie = parse_driver_cell(dname_raw)
-                    driver = dname
-                    rookie = is_rookie
-                    driver_url = link_url
+                driver_url = link_url
 
-            crew_chief = cell_text(get_cell(i_cc)) if get_cell(i_cc) else None
+        if is_unknown(crew_chief):
+            crew_chief = None
 
             races = None
             c_races = get_cell(i_races)
@@ -362,15 +391,15 @@ def scrape_teams_and_drivers(soup: BeautifulSoup) -> Dict[str, Any]:
                     season=SEASON_YEAR,
                     series=SERIES,
                     charter_status=charter_status,
-                    manufacturer=current_manu,
-                    manufacturer_wiki_url=current_manu_url,
-                    team=current_team,
-                    team_wiki_url=current_team_url,
-                    car_no=car_no,
-                    driver=driver,
-                    driver_wiki_url=driver_url,
-                    rookie=rookie,
-                    crew_chief=crew_chief,
+                manufacturer=current_manu,
+                manufacturer_wiki_url=current_manu_url,
+                team=team_override or current_team,
+                team_wiki_url=team_override_url or current_team_url,
+                car_no=car_no if not is_unknown(car_no) else None,
+                driver=driver,
+                driver_wiki_url=driver_url,
+                rookie=rookie,
+                crew_chief=crew_chief,
                     races=races,
                     references=references,
                 )

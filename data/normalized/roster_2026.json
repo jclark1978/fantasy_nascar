@@ -1,0 +1,516 @@
+{
+  "source": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
+  "season": 2026,
+  "series": "NASCAR Cup Series",
+  "generated_at_utc": "2026-01-08T15:28:00.633055+00:00",
+  "drivers": [
+    {
+      "driver_name": "Cole Custer",
+      "driver_slug": "cole-custer",
+      "team": "Haas Factory Team",
+      "car_no": "41",
+      "manufacturer": "Chevrolet",
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "TBA",
+      "source": {
+        "driver_wiki_url": "https://en.wikipedia.org/wiki/Cole_Custer"
+      }
+    },
+    {
+      "driver_name": "Kyle Larson",
+      "driver_slug": "kyle-larson",
+      "team": "Hendrick Motorsports",
+      "car_no": "5",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 6 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Chase Elliott",
+      "driver_slug": "chase-elliott",
+      "team": "Chase Elliott",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-7"
+      }
+    },
+    {
+      "driver_name": "William Byron",
+      "driver_slug": "william-byron",
+      "team": "William Byron",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-8"
+      }
+    },
+    {
+      "driver_name": "Alex Bowman",
+      "driver_slug": "alex-bowman",
+      "team": "Alex Bowman",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Bowman-9"
+      }
+    },
+    {
+      "driver_name": "Ricky Stenhouse Jr.",
+      "driver_slug": "ricky-stenhouse-jr",
+      "team": "Hyak Motorsports",
+      "car_no": "47",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 10 ] [ 11 ] [ 12 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Ty Dillon",
+      "driver_slug": "ty-dillon",
+      "team": "Kaulig Racing",
+      "car_no": "10",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 13 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "A. J. Allmendinger",
+      "driver_slug": "a-j-allmendinger",
+      "team": "A. J. Allmendinger",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Allmendinger-14"
+      }
+    },
+    {
+      "driver_name": "Austin Dillon",
+      "driver_slug": "austin-dillon",
+      "team": "Richard Childress Racing",
+      "car_no": "3",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 15 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Jim Pohlman",
+      "driver_slug": "jim-pohlman",
+      "team": "Kyle Busch",
+      "car_no": "Jim Pohlman",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-16"
+      }
+    },
+    {
+      "driver_name": "Cody Ware",
+      "driver_slug": "cody-ware",
+      "team": "Rick Ware Racing",
+      "car_no": "51",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 18 ] [ 19 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Daniel Su\u00e1rez",
+      "driver_slug": "daniel-su-rez",
+      "team": "Spire Motorsports",
+      "car_no": "7",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 15 ] [ 20 ] [ 21 ] [ 22 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Travis Peterson",
+      "driver_slug": "travis-peterson",
+      "team": "Michael McDowell",
+      "car_no": "Travis Peterson",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-McDowell-23"
+      }
+    },
+    {
+      "driver_name": "Luke Lambert",
+      "driver_slug": "luke-lambert",
+      "team": "Carson Hocevar",
+      "car_no": "Luke Lambert",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Hocevar-24"
+      }
+    },
+    {
+      "driver_name": "Ross Chastain",
+      "driver_slug": "ross-chastain",
+      "team": "Trackhouse Racing",
+      "car_no": "1",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 25 ] [ 26 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Randall Burnett",
+      "driver_slug": "randall-burnett",
+      "team": "Connor Zilisch",
+      "car_no": "Randall Burnett",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Trackhouse_Numbers-27"
+      }
+    },
+    {
+      "driver_name": "Stephen Doran",
+      "driver_slug": "stephen-doran",
+      "team": "Shane van Gisbergen",
+      "car_no": "Stephen Doran",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Trackhouse_Numbers-27"
+      }
+    },
+    {
+      "driver_name": "Noah Gragson",
+      "driver_slug": "noah-gragson",
+      "team": "Front Row Motorsports",
+      "car_no": "4",
+      "manufacturer": "Ford",
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "TBA",
+      "source": {
+        "driver_wiki_url": "https://en.wikipedia.org/wiki/Noah_Gragson"
+      }
+    },
+    {
+      "driver_name": "Todd Gilliland",
+      "driver_slug": "todd-gilliland",
+      "team": "Todd Gilliland",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Gilliland-33"
+      }
+    },
+    {
+      "driver_name": "Zane Smith",
+      "driver_slug": "zane-smith",
+      "team": "Zane Smith",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-ZaneSmith-34"
+      }
+    },
+    {
+      "driver_name": "Brad Keselowski",
+      "driver_slug": "brad-keselowski",
+      "team": "RFK Racing",
+      "car_no": "6",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 35 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Chris Buescher",
+      "driver_slug": "chris-buescher",
+      "team": "Chris Buescher",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-2026JayskiChart-15"
+      }
+    },
+    {
+      "driver_name": "Ryan Preece",
+      "driver_slug": "ryan-preece",
+      "team": "Ryan Preece",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-2026JayskiChart-15"
+      }
+    },
+    {
+      "driver_name": "Austin Cindric",
+      "driver_slug": "austin-cindric",
+      "team": "Team Penske",
+      "car_no": "2",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 36 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Ryan Blaney",
+      "driver_slug": "ryan-blaney",
+      "team": "Ryan Blaney",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Blaney-37"
+      }
+    },
+    {
+      "driver_name": "Joey Logano",
+      "driver_slug": "joey-logano",
+      "team": "Joey Logano",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Logano-38"
+      }
+    },
+    {
+      "driver_name": "Josh Berry",
+      "driver_slug": "josh-berry",
+      "team": "Wood Brothers Racing",
+      "car_no": "21",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 39 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Bubba Wallace",
+      "driver_slug": "bubba-wallace",
+      "team": "23XI Racing",
+      "car_no": "23",
+      "manufacturer": "Toyota",
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "TBA",
+      "source": {
+        "driver_wiki_url": "https://en.wikipedia.org/wiki/Bubba_Wallace"
+      }
+    },
+    {
+      "driver_name": "Riley Herbst",
+      "driver_slug": "riley-herbst",
+      "team": "Riley Herbst",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-Herbst3-41"
+      }
+    },
+    {
+      "driver_name": "Tyler Reddick",
+      "driver_slug": "tyler-reddick",
+      "team": "Tyler Reddick",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-2026JayskiChart-15"
+      }
+    },
+    {
+      "driver_name": "Denny Hamlin",
+      "driver_slug": "denny-hamlin",
+      "team": "Joe Gibbs Racing",
+      "car_no": "11",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 42 ] [ 43 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Chase Briscoe",
+      "driver_slug": "chase-briscoe",
+      "team": "Chase Briscoe",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-44"
+      }
+    },
+    {
+      "driver_name": "Christopher Bell",
+      "driver_slug": "christopher-bell",
+      "team": "Christopher Bell",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-45"
+      }
+    },
+    {
+      "driver_name": "Ty Gibbs",
+      "driver_slug": "ty-gibbs",
+      "team": "Ty Gibbs",
+      "car_no": "TBA",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-2026JayskiChart-15"
+      }
+    },
+    {
+      "driver_name": "John Hunter Nemechek",
+      "driver_slug": "john-hunter-nemechek",
+      "team": "Legacy Motor Club",
+      "car_no": "42",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": "[ 15 ]",
+      "source": {
+        "driver_wiki_url": null
+      }
+    },
+    {
+      "driver_name": "Justin Alexander",
+      "driver_slug": "justin-alexander",
+      "team": "Erik Jones",
+      "car_no": "Justin Alexander",
+      "manufacturer": null,
+      "charter_status": "chartered",
+      "rookie": false,
+      "crew_chief": null,
+      "source": {
+        "driver_wiki_url": "#cite_note-47"
+      }
+    },
+    {
+      "driver_name": "Justin Allgaier",
+      "driver_slug": "justin-allgaier",
+      "team": "JR Motorsports",
+      "car_no": "40",
+      "manufacturer": "Chevrolet",
+      "charter_status": "non-chartered",
+      "rookie": false,
+      "crew_chief": "TBA",
+      "source": {
+        "driver_wiki_url": "https://en.wikipedia.org/wiki/Justin_Allgaier"
+      }
+    },
+    {
+      "driver_name": "Casey Mears",
+      "driver_slug": "casey-mears",
+      "team": "Garage 66",
+      "car_no": "66",
+      "manufacturer": "Ford",
+      "charter_status": "non-chartered",
+      "rookie": false,
+      "crew_chief": "TBA",
+      "source": {
+        "driver_wiki_url": "https://en.wikipedia.org/wiki/Casey_Mears"
+      }
+    },
+    {
+      "driver_name": "Jimmie Johnson",
+      "driver_slug": "jimmie-johnson",
+      "team": "Legacy Motor Club",
+      "car_no": "84",
+      "manufacturer": "Toyota",
+      "charter_status": "non-chartered",
+      "rookie": false,
+      "crew_chief": "TBA",
+      "source": {
+        "driver_wiki_url": "https://en.wikipedia.org/wiki/Jimmie_Johnson"
+      }
+    }
+  ],
+  "issues": []
+}
