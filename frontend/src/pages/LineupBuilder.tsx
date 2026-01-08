@@ -59,6 +59,7 @@ export default function LineupBuilder(){
   const [detailError, setDetailError] = useState('')
   const [detailDriver, setDetailDriver] = useState<Driver | null>(null)
   const [detailProfile, setDetailProfile] = useState<any | null>(null)
+  const [badgeImages, setBadgeImages] = useState<Record<string, string>>({})
 
   useEffect(()=>{
     fetchRaces().then((data:any)=>setRaces(Array.isArray(data)? data : [])).catch(()=>setRaces([]))
@@ -84,6 +85,39 @@ export default function LineupBuilder(){
 
   const selectedLeague = useMemo(()=>leagues.find(l => l.league.id === leagueId) || null, [leagues, leagueId])
   const selectedRace = useMemo(()=>races.find(r => String(r.raceId) === String(raceId)) || null, [races, raceId])
+
+  useEffect(()=>{
+    if(!eligibility) return
+    const drivers = [
+      ...(eligibility.tiers?.top?.drivers || []),
+      ...(eligibility.tiers?.middle?.drivers || []),
+      ...(eligibility.tiers?.bottom?.drivers || []),
+    ] as Driver[]
+    const missing = drivers.filter(driver => driver.name && !badgeImages[driver.driver_id])
+    if(!missing.length) return
+
+    let cancelled = false
+    const loadBadges = async () => {
+      for(const driver of missing){
+        if(cancelled) return
+        const slug = slugifyName(driver.name || driver.driver_id)
+        if(!slug) continue
+        try{
+          const profile = await fetchDriverProfile(slug, eligibility.season_year)
+          if(profile?.car_number_image){
+            setBadgeImages(prev => {
+              if(prev[driver.driver_id]) return prev
+              return {...prev, [driver.driver_id]: profile.car_number_image}
+            })
+          }
+        }catch(err){
+          // Ignore badge fetch errors; profile drawer still handles failures.
+        }
+      }
+    }
+    loadBadges()
+    return () => { cancelled = true }
+  },[eligibility, badgeImages])
 
   async function handleGuest(){
     setAuthError('')
@@ -323,19 +357,33 @@ export default function LineupBuilder(){
             const disabledStarter = !pickedStarter && (starterCount >= starterMax || isSelected(driver.driver_id))
             const disabledBench = !pickedBench && (benchCount >= benchMax || isSelected(driver.driver_id))
             return (
-              <div key={driver.driver_id} className={`driver-card ${(pickedStarter || pickedBench) ? 'active' : ''}`}>
-                <div>
+              <div
+                key={driver.driver_id}
+                className={`driver-card ${pickedStarter ? 'starter-active' : ''} ${pickedBench ? 'bench-active' : ''}`}
+              >
+                <div className="driver-info">
                   <button className="driver-name-link" onClick={()=>openDriverDetails(driver)}>
                     {formatDriverName(driver.name || driver.driver_id)}
                   </button>
                   <div className="driver-meta">Rank {driver.rank} • {driver.remaining} starts left</div>
+                  {badgeImages[driver.driver_id] && (
+                    <img className="driver-badge" src={badgeImages[driver.driver_id]} alt="Car number" />
+                  )}
                 </div>
                 <div className="driver-actions">
-                  <button className={pickedStarter ? 'ghost' : ''} disabled={disabledStarter} onClick={()=>toggleDriver(key, 'starter', driver.driver_id)}>
-                    {pickedStarter ? 'Remove Starter' : 'Add Starter'}
+                  <button
+                    className={`toggle starter ${pickedStarter ? 'is-active' : ''}`}
+                    disabled={disabledStarter}
+                    onClick={()=>toggleDriver(key, 'starter', driver.driver_id)}
+                  >
+                    {pickedStarter ? 'Starter' : 'Add Starter'}
                   </button>
-                  <button className={pickedBench ? 'ghost' : ''} disabled={disabledBench} onClick={()=>toggleDriver(key, 'bench', driver.driver_id)}>
-                    {pickedBench ? 'Remove Bench' : 'Add Bench'}
+                  <button
+                    className={`toggle bench ${pickedBench ? 'is-active' : ''}`}
+                    disabled={disabledBench}
+                    onClick={()=>toggleDriver(key, 'bench', driver.driver_id)}
+                  >
+                    {pickedBench ? 'Bench' : 'Add Bench'}
                   </button>
                 </div>
               </div>
@@ -348,11 +396,11 @@ export default function LineupBuilder(){
   }
 
   return (
-    <div className="page">
-      <section className="panel hero">
+    <div className="page lineup-page">
+      <section className="panel hero lineup-hero">
         <div>
           <h2>Weekly Lineup Builder</h2>
-          <p>Pick drivers by tier based on current standings. Lineups lock ahead of race time.</p>
+          <p>Build starters and bench across Groups A, B, and C. Starters and bench must match per group.</p>
         </div>
         <div className="auth-panel">
           {token ? (
@@ -372,7 +420,7 @@ export default function LineupBuilder(){
         </div>
       </section>
 
-      <section className="panel">
+      <section className="panel lineup-controls">
         <h3>League Access</h3>
         <div className="grid two">
           <div>
@@ -403,7 +451,7 @@ export default function LineupBuilder(){
         </div>
       </section>
 
-      <section className="panel">
+      <section className="panel lineup-controls">
         <div className="grid two">
           <div>
             <label>Race</label>
@@ -431,7 +479,7 @@ export default function LineupBuilder(){
       </section>
 
       {eligibility && (
-        <div className="grid three">
+        <div className="grid three lineup-groups">
           {renderTier('Group A', 'top', eligibility.tiers?.top?.drivers || [])}
           {renderTier('Group B', 'middle', eligibility.tiers?.middle?.drivers || [])}
           {renderTier('Group C', 'bottom', eligibility.tiers?.bottom?.drivers || [])}
@@ -439,7 +487,7 @@ export default function LineupBuilder(){
       )}
 
       {eligibility && (
-        <section className="panel">
+        <section className="panel lineup-summary">
           <div className="summary">
             <div>
               <strong>Selected:</strong> {selection.top.starter.length + selection.top.bench.length + selection.middle.starter.length + selection.middle.bench.length + selection.bottom.starter.length + selection.bottom.bench.length} drivers
@@ -453,7 +501,7 @@ export default function LineupBuilder(){
       )}
 
       {selectedLeague?.role === 'commissioner' && settingsDraft && (
-        <section className="panel">
+        <section className="panel lineup-admin">
           <h3>Commissioner Settings</h3>
           <div className="grid three">
             <div>
