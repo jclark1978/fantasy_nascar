@@ -26,6 +26,11 @@ python3 scripts/normalize_scraped_data.py \
   --out-dir data/normalized
 ```
 
+Scrape driver profile pages (Playwright):
+```bash
+python3 scripts/driver_profile_scraper.py --season 2026
+```
+
 ## Schedule (`schedule_YYYY.json`)
 
 ```json

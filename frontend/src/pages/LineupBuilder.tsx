@@ -467,8 +467,15 @@ export default function LineupBuilder(){
                   <div className="drawer-title">{formatDriverName(detailDriver.name || detailDriver.driver_id)}</div>
                   <div className="driver-meta">Rank {detailDriver.rank} • {detailDriver.remaining} starts left</div>
                 </div>
-                {detailProfile?.photo_url && (
-                  <img className="headshot" src={detailProfile.photo_url} alt={detailProfile.name || detailDriver.name || 'Driver'} />
+                {(detailProfile?.photo_url || detailProfile?.car_number_image) && (
+                  <div className="headshot-wrap">
+                    {detailProfile?.photo_url && (
+                      <img className="headshot" src={detailProfile.photo_url} alt={detailProfile.name || detailDriver.name || 'Driver'} />
+                    )}
+                    {detailProfile.car_number_image && (
+                      <img className="car-number" src={detailProfile.car_number_image} alt="Car number" />
+                    )}
+                  </div>
                 )}
               </div>
             )}

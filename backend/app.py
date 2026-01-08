@@ -508,6 +508,7 @@ def admin_refresh_data(
     season: int = None,
     scrape_schedule: bool = True,
     scrape_standings: bool = True,
+    scrape_profiles: bool = False,
     normalize: bool = True,
     current_user: models.User = Depends(get_current_user),
 ):
@@ -540,6 +541,17 @@ def admin_refresh_data(
 
     if scrape_standings:
         run_step("scrape_standings", [sys.executable, "scripts/driver_scraper.py"])
+
+    if scrape_profiles:
+        run_step(
+            "scrape_profiles",
+            [
+                sys.executable,
+                "scripts/driver_profile_scraper.py",
+                "--season",
+                str(season),
+            ],
+        )
 
     if normalize:
         run_step(

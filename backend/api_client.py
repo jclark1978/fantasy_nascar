@@ -217,6 +217,8 @@ def _extract_profile_from_html(html: str) -> Dict[str, Optional[str]]:
         "name": None,
         "photo_url": None,
         "car_no": None,
+        "car_number_image": None,
+        "car_number_image": None,
         "dob": None,
         "hometown": None,
         "crew_chief": None,
@@ -235,12 +237,21 @@ def _extract_profile_from_html(html: str) -> Dict[str, Optional[str]]:
         profile["name"] = f"{first} {last}".strip()
 
     photo_match = re.search(
-        r"<div class=\"ndms2023-driver-hero-left-col\">.*?<img[^>]+src=\"([^\"]+)\"",
+        r"<div class=\"ndms2023-driver-hero-left-col\">.*?<img[^>]+>",
         html,
         re.S | re.I,
     )
     if photo_match:
-        profile["photo_url"] = html_lib.unescape(photo_match.group(1)).strip()
+        img_tag = photo_match.group(0)
+        src_match = re.search(r"(src|data-src|data-lazy-src)=\"([^\"]+)\"", img_tag, re.I)
+        if src_match:
+            profile["photo_url"] = html_lib.unescape(src_match.group(2)).strip()
+        else:
+            srcset_match = re.search(r"srcset=\"([^\"]+)\"", img_tag, re.I)
+            if srcset_match:
+                first = srcset_match.group(1).split(",")[0].strip().split(" ")[0]
+                if first:
+                    profile["photo_url"] = html_lib.unescape(first).strip()
 
     badge_match = re.search(
         r"class=\"ndms2023-driver-badge\".*?<img[^>]+src=\"([^\"]+)\"",
@@ -249,6 +260,7 @@ def _extract_profile_from_html(html: str) -> Dict[str, Optional[str]]:
     )
     if badge_match:
         src = html_lib.unescape(badge_match.group(1))
+        profile["car_number_image"] = src
         num_match = re.search(r"/(\\d{1,3})(?:@|\\-|\\.png)", src)
         if num_match:
             profile["car_no"] = num_match.group(1)
@@ -471,13 +483,14 @@ def get_driver_profile(slug: str, year: int | None = None) -> Dict:
         "source_url": url,
     }
 
-    html = None
-    try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        resp.raise_for_status()
-        html = resp.text
-    except Exception:
-        html = _load_local_profile_html(slug)
+    html = _load_local_profile_html(slug)
+    if not html:
+        try:
+            resp = requests.get(url, headers=headers, timeout=15)
+            resp.raise_for_status()
+            html = resp.text
+        except Exception:
+            html = None
 
     if html:
         json_ld_blocks = _extract_json_ld(html)

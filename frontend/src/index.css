@@ -270,12 +270,27 @@ button:disabled{opacity:0.6;cursor:not-allowed}
   border:1px solid var(--line);
   color:var(--muted);
 }
+.headshot-wrap{
+  position:relative;
+  width:130px;
+  height:130px;
+}
 .headshot{
-  width:90px;
-  height:90px;
-  border-radius:16px;
+  width:130px;
+  height:130px;
+  border-radius:18px;
   object-fit:cover;
-  border:2px solid var(--accent);
+  object-position: center 15%;
+  border:none;
+  background:#f5f2ee;
+}
+.car-number{
+  position:absolute;
+  right:-6px;
+  bottom:-6px;
+  width:64px;
+  height:auto;
+  filter:drop-shadow(0 4px 10px rgba(0,0,0,0.2));
 }
 .photo-grid{
   display:grid;

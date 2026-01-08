@@ -2,7 +2,7 @@
   "source": "https://en.wikipedia.org/wiki/2026_NASCAR_Cup_Series",
   "season": 2026,
   "series": "NASCAR Cup Series",
-  "generated_at_utc": "2026-01-08T15:28:00.633055+00:00",
+  "generated_at_utc": "2026-01-08T20:47:50.971842+00:00",
   "drivers": [
     {
       "driver_name": "Cole Custer",
@@ -122,8 +122,8 @@
       }
     },
     {
-      "driver_name": "Jim Pohlman",
-      "driver_slug": "jim-pohlman",
+      "driver_name": "Kyle Busch",
+      "driver_slug": "kyle-busch",
       "team": "Kyle Busch",
       "car_no": "Jim Pohlman",
       "manufacturer": null,
@@ -161,8 +161,8 @@
       }
     },
     {
-      "driver_name": "Travis Peterson",
-      "driver_slug": "travis-peterson",
+      "driver_name": "Michael McDowell",
+      "driver_slug": "michael-mcdowell",
       "team": "Michael McDowell",
       "car_no": "Travis Peterson",
       "manufacturer": null,
@@ -174,8 +174,8 @@
       }
     },
     {
-      "driver_name": "Luke Lambert",
-      "driver_slug": "luke-lambert",
+      "driver_name": "Carson Hocevar",
+      "driver_slug": "carson-hocevar",
       "team": "Carson Hocevar",
       "car_no": "Luke Lambert",
       "manufacturer": null,
@@ -200,8 +200,8 @@
       }
     },
     {
-      "driver_name": "Randall Burnett",
-      "driver_slug": "randall-burnett",
+      "driver_name": "Connor Zilisch",
+      "driver_slug": "connor-zilisch",
       "team": "Connor Zilisch",
       "car_no": "Randall Burnett",
       "manufacturer": null,
@@ -213,8 +213,8 @@
       }
     },
     {
-      "driver_name": "Stephen Doran",
-      "driver_slug": "stephen-doran",
+      "driver_name": "Shane van Gisbergen",
+      "driver_slug": "shane-van-gisbergen",
       "team": "Shane van Gisbergen",
       "car_no": "Stephen Doran",
       "manufacturer": null,
@@ -460,8 +460,8 @@
       }
     },
     {
-      "driver_name": "Justin Alexander",
-      "driver_slug": "justin-alexander",
+      "driver_name": "Erik Jones",
+      "driver_slug": "erik-jones",
       "team": "Erik Jones",
       "car_no": "Justin Alexander",
       "manufacturer": null,

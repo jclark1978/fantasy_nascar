@@ -155,7 +155,7 @@ def normalize_schedule(raw: Dict[str, Any], season: int) -> Dict[str, Any]:
 
 
 def choose_driver_name(entry: Dict[str, Any]) -> Optional[str]:
-    candidates = [entry.get("driver"), entry.get("car_no"), entry.get("team")]
+    candidates = [entry.get("driver"), entry.get("team"), entry.get("car_no")]
     for cand in candidates:
         if not cand:
             continue
@@ -163,6 +163,8 @@ def choose_driver_name(entry: Dict[str, Any]) -> Optional[str]:
         if cand.upper() == "TBA" or looks_like_reference(cand):
             continue
         if looks_like_car_no(cand):
+            continue
+        if any(token in cand for token in ["Racing", "Motorsports", "Club", "Team", "Garage"]):
             continue
         return camel_to_spaced(cand)
     return None
@@ -176,11 +178,23 @@ def normalize_roster(raw: Dict[str, Any], season: int) -> Dict[str, Any]:
         team = entry.get("team")
         car_no = entry.get("car_no")
         driver_name = choose_driver_name(entry)
+        crew_chief = entry.get("crew_chief")
 
         if manufacturer and manufacturer not in KNOWN_MANUFACTURERS and not looks_like_car_no(manufacturer):
             if team and looks_like_car_no(team) and (car_no and not looks_like_car_no(car_no)):
                 team, car_no, driver_name = manufacturer, team, camel_to_spaced(str(car_no))
                 manufacturer = None
+
+        if not driver_name and team and isinstance(team, str):
+            if team.upper() != "TBA" and not looks_like_reference(team) and not looks_like_car_no(team):
+                if not any(token in team for token in ["Racing", "Motorsports", "Club", "Team", "Garage"]):
+                    driver_name = camel_to_spaced(team)
+
+        if not looks_like_car_no(car_no) and crew_chief and crew_chief.upper() != "TBA":
+            if not any(token in str(crew_chief) for token in ["Racing", "Motorsports", "Club", "Team", "Garage"]):
+                if " " in str(car_no or "") and not looks_like_reference(str(car_no)):
+                    crew_chief = car_no
+                    car_no = manufacturer if looks_like_car_no(str(manufacturer)) else car_no
 
         if driver_name is None:
             issues.append({"reason": "missing_driver_name", "entry": entry})
@@ -198,7 +212,7 @@ def normalize_roster(raw: Dict[str, Any], season: int) -> Dict[str, Any]:
                 "manufacturer": manufacturer if manufacturer in KNOWN_MANUFACTURERS else None,
                 "charter_status": entry.get("charter_status"),
                 "rookie": entry.get("rookie"),
-                "crew_chief": entry.get("crew_chief"),
+                "crew_chief": crew_chief,
                 "source": {"driver_wiki_url": entry.get("driver_wiki_url")},
             }
         )
