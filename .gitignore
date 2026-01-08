@@ -11,3 +11,4 @@ fantasy_nascar.db
 .env
 data/raw/driver_profiles/
 tests/nascar.com.standings.html
+tests/League Logic.txt
