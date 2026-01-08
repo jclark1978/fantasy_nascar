@@ -124,6 +124,7 @@ export default function LineupBuilder(){
     const t = await guestLogin()
     localStorage.setItem('token', t.access_token)
     setToken(t.access_token)
+    window.dispatchEvent(new Event('auth-changed'))
   }
 
   async function handleRegister(){
@@ -132,6 +133,7 @@ export default function LineupBuilder(){
       const t = await registerUser(email, password)
       localStorage.setItem('token', t.access_token)
       setToken(t.access_token)
+      window.dispatchEvent(new Event('auth-changed'))
     }catch(err:any){
       setAuthError(err.message || 'Registration failed')
     }
@@ -143,6 +145,7 @@ export default function LineupBuilder(){
       const t = await loginUser(email, password)
       localStorage.setItem('token', t.access_token)
       setToken(t.access_token)
+      window.dispatchEvent(new Event('auth-changed'))
     }catch(err:any){
       setAuthError(err.message || 'Login failed')
     }
@@ -153,6 +156,7 @@ export default function LineupBuilder(){
     setToken(null)
     setEligibility(null)
     setSelection({...emptySelection})
+    window.dispatchEvent(new Event('auth-changed'))
   }
 
   async function handleCreateLeague(){

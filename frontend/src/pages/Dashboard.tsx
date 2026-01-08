@@ -15,7 +15,6 @@ export default function Dashboard(){
           <p>Build your lineup, track standings, and keep the league racing.</p>
           <div className="inline">
             <Link className="button" to="/lineup">Build Lineup</Link>
-            <Link className="button ghost" to="/admin">League Settings</Link>
           </div>
         </div>
         <div className="callout">
