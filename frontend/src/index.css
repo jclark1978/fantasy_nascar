@@ -426,3 +426,14 @@ button:disabled{opacity:0.6;cursor:not-allowed}
   .drawer-hero{grid-template-columns:1fr}
   .headshot-large{justify-self:start}
 }
+
+.gorillas-layout{display:grid;grid-template-columns:2.4fr 1fr;gap:18px;align-items:start}
+.gorillas-canvas{width:100%;height:auto;border-radius:16px;border:1px solid #2c3752;background:#081327}
+.gorillas-controls{display:flex;flex-direction:column;gap:10px}
+.gorillas-controls h2{margin:0;font-family:"Oswald","Space Grotesk",sans-serif}
+.muted{color:var(--muted);margin:0}
+.checkbox-row{display:flex;align-items:center;gap:8px;text-transform:none}
+.checkbox-row input{width:auto}
+@media (max-width: 1080px){
+  .gorillas-layout{grid-template-columns:1fr}
+}
