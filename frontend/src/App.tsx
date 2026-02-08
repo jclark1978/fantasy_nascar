@@ -6,6 +6,7 @@ import Driver from './pages/Driver'
 import LineupBuilder from './pages/LineupBuilder'
 import LeagueAdmin from './pages/LeagueAdmin'
 import Results from './pages/Results'
+import GorillasPage from './pages/Gorillas'
 import { fetchLeagues } from './api'
 
 export default function App(){
@@ -48,6 +49,7 @@ export default function App(){
             <Link to="/lineup">Lineup Builder</Link>
             <Link to="/standings">Standings</Link>
             <Link to="/results">Results</Link>
+            <Link to="/gorillas">Gorillas</Link>
             {isCommissioner && <Link to="/admin">League Admin</Link>}
           </nav>
         </div>
@@ -59,6 +61,7 @@ export default function App(){
           <Route path="/admin" element={<LeagueAdmin/>} />
           <Route path="/standings" element={<Standings/>} />
           <Route path="/results" element={<Results/>} />
+          <Route path="/gorillas" element={<GorillasPage/>} />
           <Route path="/driver/:id" element={<Driver/>} />
         </Routes>
       </main>
